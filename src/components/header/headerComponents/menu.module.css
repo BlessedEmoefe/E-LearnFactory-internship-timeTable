@@ -1,0 +1,8 @@
+.menu{
+    width:50%;
+    height:65%;
+    background: rgb(238, 238, 238);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}

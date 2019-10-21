@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import HeaderContainer from "./header/HeaderContainer"
+
 
 class Container extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
-                <p>Hello World</p>
+                <HeaderContainer />
             </div>
          );
     }
