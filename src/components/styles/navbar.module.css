@@ -1,0 +1,17 @@
+.navbar{
+    width:68%;
+    height:65%;
+    background: rgb(117, 33, 33);
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:70%;
+    height: 80%;
+    list-style-type: none;
+    Color:white;
+}
