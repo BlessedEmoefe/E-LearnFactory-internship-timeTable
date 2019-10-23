@@ -1,9 +1,13 @@
 import React from 'react'
+import styles from "../../../styles/login.module.css"
 
 const Login = () => {
     return (
-        <div>
-            this is the login page
+        <div className={styles.login}>
+            <form className={styles.loginForm}>
+                <label>FirstName</label>
+                <input type="text" />
+            </form>
         </div>
     )
 }

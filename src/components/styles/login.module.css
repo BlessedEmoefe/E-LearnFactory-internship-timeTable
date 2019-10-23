@@ -1,0 +1,16 @@
+.login{
+    padding:50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.loginForm{
+    width:70%;
+    background: greenyellow;
+    height:50vh;
+    border-radius: 10px;
+}
+
+@media only screen (max-width:420px){
+
+}
