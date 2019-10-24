@@ -1,16 +1,35 @@
 .login{
     padding:50px 0 50px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 }
+.leftSection{
+    width:40%;
+}
 .loginForm{
-    width:70%;
+    width:30%;
     background: greenyellow;
-    height:50vh;
+    /* height:50vh; */
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:2% 3%
+}
+.label{
+font-size: 20px;
+color:white;
+
+}
+.input{
+width:90%;
+border-radius:5px;
+border:1px solid transparent;
+height:34px;
+margin-bottom:20px;
 }
 
-@media only screen (max-width:420px){
-
+@media (max-width:420px){
+   
 }

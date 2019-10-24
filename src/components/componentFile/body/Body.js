@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from  "../../styles/body.module.css"
-import Login from "../body/login/Login"
+import LoginRegister from "./login/LoginRegister"
 
 const Body = () => {
     return (
         <div className={styles.body}>
-         <Login />
+            <LoginRegister />
         </div>
     )
 }
