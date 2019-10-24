@@ -3,11 +3,14 @@ import LogInButton from "./LogInButton";
 import styles from "../../../styles/login.module.css"
 import Header from "../../header/HeaderContainer"
 import Footer from "../../footer/Footer"
+import TextSection from "./TextSection"
 
 const Login = () => {
     return (
-        <div>
+        <div >
             <Header />
+            <div className={styles.login}>
+            <TextSection />
             <form className={styles.loginForm}>
                 <label className={styles.label}>Username</label>
                 <input className={styles.input} type="text" />
@@ -16,9 +19,10 @@ const Login = () => {
                 <label className={styles.label}>Password</label>
                 <input className={styles.input} type="password" />
                <LogInButton>Login</LogInButton>
-
-            <Footer />
             </form>
+
+            </div>
+            <Footer />
         </div>
     )
 }
