@@ -1,7 +1,7 @@
 .navbar{
     width:68%;
     height:65%;
-    background: rgb(117, 33, 33);
+    /* background: rgb(117, 33, 33); */
     justify-content: flex-end;
     align-items: center;
     display: flex;
@@ -13,5 +13,5 @@
     width:70%;
     height: 80%;
     list-style-type: none;
-    Color:white;
+    Color:#00204a;
 }

@@ -1,6 +1,7 @@
 .login{
     padding:50px 0 50px 0;
     display: flex;
+    background: linear-gradient(180deg,#005792,#00204a);
     justify-content: center;
     align-content: center;
 }
@@ -9,7 +10,7 @@
 }
 .loginForm{
     width:30%;
-    background: greenyellow;
+    background: #00204a;
     /* height:50vh; */
     border-radius: 10px;
     display: flex;
@@ -23,10 +24,10 @@ color:white;
 
 }
 .input{
-width:90%;
+width:100%;
 border-radius:5px;
 border:1px solid transparent;
-height:34px;
+height:40px;
 margin-bottom:20px;
 }
 

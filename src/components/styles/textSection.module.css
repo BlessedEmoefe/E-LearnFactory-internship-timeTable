@@ -6,7 +6,8 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    align-items: center
+    align-items: center;
+    color:white;
 }
 .heading{
 font-size:50px;
