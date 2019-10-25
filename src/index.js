@@ -4,5 +4,6 @@ import './index.css';
 import Container from './components/componentFile/Container';
 import Login from './components/componentFile/body/login/Login';
 import Register from './components/componentFile/body/login/Register';
+import RouterComponent from './components/componentFile/routes/RouterComponent';
 
-ReactDOM.render(<Register />, document.getElementById('root'));
+ReactDOM.render(<RouterComponent />, document.getElementById('root'));
