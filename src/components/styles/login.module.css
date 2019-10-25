@@ -1,7 +1,7 @@
 .login{
     padding:50px 0 50px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
 }
 .leftSection{
