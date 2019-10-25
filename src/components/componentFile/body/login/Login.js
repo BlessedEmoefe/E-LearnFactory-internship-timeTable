@@ -10,7 +10,7 @@ const Login = () => {
         <div >
             <Header />
             <div className={styles.login}>
-            <TextSection />
+            <TextSection words="login for more information"/>
             <form className={styles.loginForm}>
                 <label className={styles.label}>Username</label>
                 <input className={styles.input} type="text" />
