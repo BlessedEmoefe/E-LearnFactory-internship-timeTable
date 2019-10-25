@@ -1,5 +1,16 @@
 .textSection{
     max-width:45%;
     background:grey;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center
+}
+.heading{
+font-size:30px;
+
+}
+.notes{
+
 }

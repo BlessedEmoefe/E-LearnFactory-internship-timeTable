@@ -15,7 +15,8 @@ class TextSection extends Component {
         return ( 
 
         <div className={styles.textSection}>
-            <h1 >LearnFactory's Internship schedule for 2019</h1>
+            <h1 className={styles.heading} > Internship schedule for 2019</h1>
+            <p className={styles.notes}>LearnFactory has a very deep and intense internship accompanied by a dense matrix of schedules </p>
          
         </div>
     

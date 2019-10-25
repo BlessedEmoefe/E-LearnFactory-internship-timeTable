@@ -3,7 +3,7 @@ import styles from "../../../styles/menu.module.css";
 import Container from "../../Container";
 import About from "../../body/about/About";
 import Login from "../../body/login/Login"
-import SignUp from "../../body/sign-up/SignUp"
+import SignUp from "../../body/login/Register"
 import { BrowserRouter, Route, Switch,NavLink} from "react-router-dom";
 
 const Menu = () => {
