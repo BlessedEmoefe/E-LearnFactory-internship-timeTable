@@ -17,11 +17,6 @@ const RouterComponent = () => {
   return (
     <div>
       <BrowserRouter>
-      <div className={StyleSheet.navlink}>
-
-      <NavLink to="/">Register</NavLink>
-      <NavLink to="/login">Login</NavLink>
-      </div>
         <Switch>
             <Route path="/" exact={true} component={Register} />
             <Route path="/login" component={Login} />
