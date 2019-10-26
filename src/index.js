@@ -6,4 +6,4 @@ import Login from './components/componentFile/body/login/Login';
 import Register from './components/componentFile/body/login/Register';
 import RouterComponent from './components/componentFile/routes/RouterComponent';
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<RouterComponent />, document.getElementById('root'));

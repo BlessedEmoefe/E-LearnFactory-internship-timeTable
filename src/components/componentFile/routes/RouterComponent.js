@@ -11,6 +11,7 @@ import {
 import Register from "../body/login/Register";
 import Login from "../body/login/Login";
 import styles from "../../styles/navlink.module.css"
+import HeaderContainer from "../header/HeaderContainer"
 
 const RouterComponent = () => {
   return (
