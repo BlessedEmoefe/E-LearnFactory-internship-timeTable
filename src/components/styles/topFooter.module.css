@@ -1,5 +1,17 @@
 .topFooter{
-    background: green;
+    background: rgb(119, 128, 0);
     width:100%;
     height:75%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.paragraph{
+    width:40%;
+    height:80%;
+    display: inline-block
+}
+.img{
+    width: 20%;
+    height:20%;
 }
