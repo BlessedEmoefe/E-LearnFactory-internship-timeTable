@@ -18,6 +18,10 @@ const Profile = () => {
                         <p className={styles.realName}>Name</p>
                         <p className={styles.username}>Username</p>
                     </div>
+                    <div className={styles.profileSection}>
+                        <button className={styles.button}>Edit Profile</button>
+                        <p className={styles.profileText}>I am a graduate of nigerian school</p>
+                    </div>
                 </div>
 
                 <div className={styles.right}>

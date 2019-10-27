@@ -50,3 +50,20 @@ background: red;
 font-size:35px;
 flex-wrap: wrap
 }
+.profileSection{
+width:98%;
+padding:1%;
+background: rgb(37, 189, 37);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.button{
+padding:2% 40%;
+border:1px solid transparent;
+}
+.profileText{
+padding: 5%;
+flex-wrap: wrap;
+color:red;
+}
