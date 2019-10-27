@@ -13,6 +13,7 @@ const Profile = () => {
                     <div className={styles.profileImg}>
 
                     </div>
+                    <button className={styles.status}>Set Status</button>
                 </div>
 
                 <div className={styles.right}>
