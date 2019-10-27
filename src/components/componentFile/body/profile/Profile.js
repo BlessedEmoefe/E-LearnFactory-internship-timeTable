@@ -8,9 +8,13 @@ const Profile = () => {
         <div>
             <HeaderContainer/>
             <div className={styles.profile}>
+
                 <div className={styles.left}>
-        this is the right section
+                    <div className={styles.profileImg}>
+
+                    </div>
                 </div>
+
                 <div className={styles.right}>
                 this is the left section
                 </div>
