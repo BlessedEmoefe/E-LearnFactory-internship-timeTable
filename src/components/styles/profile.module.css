@@ -33,3 +33,20 @@ background: red;
     border:1px solid transparent;
     
 }
+.name{
+    width:98%;
+
+    /* padding:2%; */
+    background: firebrick;
+}
+.realName{
+    background: darkcyan;
+    margin:0;
+    padding:0;
+    font-size:40px;
+    flex-wrap: wrap;
+}
+.userName{
+font-size:35px;
+flex-wrap: wrap
+}

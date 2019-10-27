@@ -14,6 +14,10 @@ const Profile = () => {
 
                     </div>
                     <button className={styles.status}>Set Status</button>
+                    <div className={styles.name}>
+                        <p className={styles.realName}>Name</p>
+                        <p className={styles.username}>Username</p>
+                    </div>
                 </div>
 
                 <div className={styles.right}>
