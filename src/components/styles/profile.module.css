@@ -1,7 +1,19 @@
 .profile{
     height:100vh;
-    width:100%;
+    /* width:100%; */
     background: greenyellow;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding:2% 2%;
+}
+.right{
+width:70%;
+max-height: 100%;
+background: red;
+/* padding:2% 0; */
+}
+.left{
+    width:23%;
+    max-height: 100%;
+    background: hotpink;
 }
