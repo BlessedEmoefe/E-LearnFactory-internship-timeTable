@@ -8,8 +8,13 @@ const Profile = () => {
         <div>
             <HeaderContainer/>
             <div className={styles.profile}>
-
-            this is the Profile page
+                <div className={styles.left}>
+        this is the right section
+                </div>
+                <div className={styles.right}>
+                this is the left section
+                </div>
+            
             </div>
             <Footer/>
         </div>
