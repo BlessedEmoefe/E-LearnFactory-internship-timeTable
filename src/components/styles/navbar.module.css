@@ -14,6 +14,8 @@
     height: 80%;
     list-style-type: none;
     Color:#00204a;
+    text-decoration:none;
+
 }
 .links:hover{
     font-size: 22px;
