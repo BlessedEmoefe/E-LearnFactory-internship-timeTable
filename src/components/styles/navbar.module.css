@@ -5,6 +5,8 @@
     justify-content: flex-end;
     align-items: center;
     display: flex;
+    font-family: "Vollkorn", serif;
+
 }
 .ul{
     display:flex;
@@ -17,14 +19,15 @@
     text-decoration:none;
 
 }
-.links:hover{
+.link:hover{
     font-size: 22px;
     transition:1.5s;
     text-decoration:none;
+    color:greenyellow;
 
 
 }
-.links:link,.links:visited,.links:active{
+.link:link,.link:visited,.link:active{
     font-size: 17px;
     text-decoration:none;
 
