@@ -15,3 +15,8 @@
     list-style-type: none;
     Color:#00204a;
 }
+.links:hover{
+    font-size: 25px;
+    transition:1s
+
+}
